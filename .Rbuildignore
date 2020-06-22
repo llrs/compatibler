@@ -1,3 +1,5 @@
 ^compatibler\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
+^README\.Rmd$
+^codecov\.yml$
