@@ -20,7 +20,7 @@ clean_version <- function(license) {
 }
 
 detect_version <- function(license) {
-    gsub(".+-? ?([0-9]+.+)", "\\1", license)
+    gsub(".+(-| )([0-9]{1,}\\.?[0-9]?\\.[0-9]?)", "\\2", license)
 }
 
 equal_major <- function(license) {
